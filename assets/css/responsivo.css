@@ -1,0 +1,344 @@
+/* Tablet portrait (768px+) */
+@media (min-width: 768px) {
+
+        body {
+        max-width: 991px;
+        margin: auto;
+    }
+
+    header {
+        justify-content: flex-start;
+        height: auto;
+        padding: 2rem 4rem;
+    }
+
+    header img {
+        max-height: 150px;
+        height: auto;
+        width: auto;
+    }
+
+    .botao {
+        width: 80%;
+        font-size: 1.02em !important;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 960px;
+        margin: auto;
+        gap: 2rem;
+    }
+
+    .apresentacao img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .apresentacao article {
+        width: 100%;
+        max-width: 368px;
+        height: auto;
+    }
+
+    .apresentacao h2 {
+        margin: 1.2em 1em 1em 0;
+        text-align: right;
+    }
+
+    .apresentacao a {
+        width: 80%;
+        font: 1.5em;
+    }
+
+    .apresentacao p {
+        margin: 0em 1em 1em 0;
+        text-align: right;
+        padding-right: 1em;
+    }
+
+    .tratamentos p {
+        font-size: 1.4em;
+    }
+
+    .tratamentos__lista {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 2rem;
+        border: none;
+    }
+
+    .tratamentos__lista div {
+        margin: 0;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .trabalho ul {
+        font-size: 1.2em;
+    }
+
+    .abordagem p {
+        font-size: 1.5em;
+    }
+
+    .sobre-mim img {
+        width: 85%;
+    }
+
+    .sobre-mim h3 {
+        font-size: 3em;
+    }
+
+    #destaque {
+        font-size: 1.5em;
+    }
+
+    .sobre-mim p {
+        font-size: 1.3em;
+    }
+
+    #endereco {
+        font-size: 1.3em;
+    }
+
+    footer p {
+        font-size: 1.3em;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------------------------------------------*/
+
+/* Desktop (992px+) */
+@media (min-width: 992px) {
+    body {
+        max-width: 1199px;
+        margin: auto;
+    }
+
+    section {
+        min-height: 100vh;
+    }
+
+    .tratamentos article {
+        width: 80%;
+        margin: auto;
+    }
+
+    .tratamentos__lista {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .tratamentos__lista div {
+        padding: 1.5rem;
+    }
+
+    .botao {
+        display: inline-block;
+        width: auto;
+    }
+
+    .trabalho__imagem-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 3rem 2rem;
+    }
+
+    .trabalho__imagem-container img {
+        width: 40%;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .trabalho__container {
+        width: 50%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 2rem;
+    }
+
+    .sobre-mim__imagem-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 3rem 2rem;
+    }
+
+    .sobre-mim__imagem-container img {
+        width: 40%;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .sobre-mim__container {
+        width: 50%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 2rem;
+    }
+
+    .atendimento > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #mapa iframe {
+        width: 60vw;
+        height: 400px;
+    }
+
+    #endereco {
+        width: 35%;
+        font-size: 1.3em;
+    }
+
+    .faq-question {
+        font-size: 1.6em;
+    }
+
+    .faq-answer {
+        font-size: 1.4em;
+    }
+
+    footer p {
+        font-size: 1.5em;
+    }
+}
+
+/* Desktop largo (1200px+) */
+@media (min-width: 1200px) {
+    body {
+        max-width: 1439px;
+        margin: auto;
+    }
+
+    section {
+        min-height: 100vh;
+    }
+
+    .apresentacao {
+        max-width: 1200px;
+        gap: 4rem;
+    }
+
+    .apresentacao img {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .apresentacao article {
+        max-width: 50%;
+        padding: 10em 0;
+    }
+
+    .apresentacao h2,
+    .apresentacao p {
+        text-align: center;
+    }
+
+    .tratamentos article {
+        width: 80%;
+        margin: auto;
+    }
+
+    .tratamentos__lista {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tratamentos__lista div {
+        padding: 1rem;
+    }
+
+    .trabalho {
+        padding-bottom: 0;
+    }
+
+.trabalho__imagem-container,
+.sobre-mim__imagem-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+}
+
+.trabalho__imagem-container img {
+    width: 35%;
+    height: auto;
+    border-radius: 30px; /* se quiser manter o estilo */
+    margin: 0;
+}
+
+.trabalho__container,
+.sobre-mim__container {
+    width: 50%;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 30px;
+    position: static; /* remove absolute se ainda existir */
+    transform: none;
+}
+
+.abordagem {
+    padding: 0 5em;
+}
+
+.sobre-mim {
+    padding-bottom: 0;
+}
+
+.sobre-mim__imagem-container img {
+    width: 45%;
+    height: auto;
+    border-radius: 30px; /* se quiser manter o estilo */
+    margin: 0;
+}
+
+
+    #mapa iframe {
+        width: 50vw;
+        height: 400px;
+        margin: 0;
+    }
+
+    #endereco {
+        font-size: 1.6em;
+        width: 40%;
+        margin: 0;
+        
+    }
+
+    .botao {
+        font-size: 1.2em !important;
+    }
+
+    footer p {
+        font-size: 2em !important;
+    }
+}
