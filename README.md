@@ -20,12 +20,14 @@ Este projeto recria em HTML estático o site de uma psicóloga, originalmente fe
 
 ## 🛠 Tecnologias utilizadas
 
-- HTML5
-- CSS3
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 ## 📱 Responsividade
 
-O projeto será adaptado para funcionar corretamente em dispositivos móveis e telas grandes, utilizando estratégias **mobile-first** (em desenvolvimento).
+O projeto foi adaptado para funcionar corretamente em dispositivos móveis e telas grandes, utilizando uma estratégia **mobile-first**. Ajustes de layout e responsividade foram implementados, porém ainda restam melhorias visuais e a criação de animações para maior dinamismo.
 
 ## 🔒 Aviso legal
 
