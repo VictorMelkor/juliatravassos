@@ -1,0 +1,22 @@
+:root {
+    --cor-principal: #97375D;
+    --cor-sedundaria: #F25050;
+    --cor-terciaria: #73B8BF;
+    --cor-amarela: #F29A2E;
+    --cor-background: #ffffff;
+    --cor-background-secundario: #f2f2f2;
+    
+}
+
+section#apresentacao {
+    background-color: var(--cor-principal);
+}
+
+section#trabalho {
+    background-color: var(--cor-amarela);
+}
+
+section#sobre-mim {
+    background-color: var(--cor-amarela);
+}
+
